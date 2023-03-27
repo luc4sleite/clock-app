@@ -1,8 +1,8 @@
-# Frontend Mentor - Clock app solution
+# Clock app
 
-This is a solution to the [Clock app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta é uma solução ao [Clock app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM).
 
-## Table of contents
+## Índice
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
