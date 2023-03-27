@@ -4,12 +4,12 @@
   --secundary-color: #303030;
   --third-color: #000000;
   --bg-color: #979797;
-  --bg-mobile-image-day: url("../mobile/bg-image-daytime.jpg");
-  --bg-mobile-image-night: url("../mobile/bg-image-nighttime.jpg");
-  --bg-tablet-imagem-day: url("../tablet/bg-image-daytime.jpg");
-  --bg-tablet-imagem-night: url("../tablet/bg-image-nighttime.jpg");
-  --bg-desktop-imagem-day: url("../desktop/bg-image-daytime.jpg");
-  --bg-desktop-imagem-night: url("../desktop/bg-image-nighttime.jpg");
+  --bg-mobile-image-day: url("../../assets/mobile/bg-image-daytime.jpg");
+  --bg-mobile-image-night: url("../../assets/mobile/bg-image-nighttime.jpg");
+  --bg-tablet-imagem-day: url("../../assets/tablet/bg-image-daytime.jpg");
+  --bg-tablet-imagem-night: url("../../assets/tablet/bg-image-nighttime.jpg");
+  --bg-desktop-imagem-day: url("../../assets/desktop/bg-image-daytime.jpg");
+  --bg-desktop-imagem-night: url("../../assets/desktop/bg-image-nighttime.jpg");
 }
 
 body::before {
@@ -175,6 +175,7 @@ header {
 .menu__item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 0;
 }
 
