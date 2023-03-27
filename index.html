@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Frontend Mentor | Clock App</title>
+    <title>Clock App</title>
   </head>
   <body>
-    <header>
+    <header class="active">
       <div class="quotes">
         <p class="quotes__text">
           “The science of operations, as derived from mathematics more
@@ -51,8 +51,8 @@
 
     <footer class="dropdown-menu">
       <div class="toggle__button">
-        <span>More</span>
-        <i class="fa-solid fa-angle-down"></i>
+        <span id="btn-text">More</span>
+        <i class="fa-solid fa-angle-up" id="btn-icon"></i>
       </div>
       <nav class="menu">
         <li class="menu__item">
@@ -73,5 +73,6 @@
         </li>
       </nav>
     </footer>
+    <script src="./app/script.js"></script>
   </body>
 </html>
