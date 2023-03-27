@@ -1,0 +1,186 @@
+:root {
+  --main-font: "Inter", sans-serif;
+  --main-color: #ffffff;
+  --secundary-color: #303030;
+  --third-color: #000000;
+  --bg-color: #979797;
+  --bg-mobile-image-day: url("../mobile/bg-image-daytime.jpg");
+  --bg-mobile-image-night: url("../mobile/bg-image-nighttime.jpg");
+  --bg-tablet-imagem-day: url("../tablet/bg-image-daytime.jpg");
+  --bg-tablet-imagem-night: url("../tablet/bg-image-nighttime.jpg");
+  --bg-desktop-imagem-day: url("../desktop/bg-image-daytime.jpg");
+  --bg-desktop-imagem-night: url("../desktop/bg-image-nighttime.jpg");
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+body {
+  font-family: var(--main-font);
+  max-height: 667px;
+  background-image: var(--bg-mobile-image-day);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--main-color);
+}
+
+li {
+  list-style: none;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  padding: 2rem 1rem;
+  justify-content: space-around;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  font-size: 12px;
+}
+
+.fa-rotate {
+  opacity: 0.5;
+}
+
+.quotes__text {
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.quotes__author {
+  font-weight: 700;
+}
+
+/* TIME AND LOCATION */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  padding-top: 12rem;
+}
+
+/* GREETING */
+.greeting {
+  display: flex;
+  align-items: center;
+}
+
+.greeting__text {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding-left: 0.5rem;
+}
+
+/* TIME */
+.time {
+  display: flex;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+
+.time__number {
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+}
+
+.time__type {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+}
+
+/* LOCATION */
+.location__container{
+    padding-top: 1rem;
+}
+
+.location {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 3px;
+}
+
+/* DROPDOWN MENU */
+.toggle__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--main-color);
+    border-radius: 28px;
+    width: 115px;
+    height: 39px;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.toggle__button span {
+    color: var(--third-color);
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3.75px;
+    padding-left: 1rem;
+}
+
+.toggle__button i {
+    display: inline-block;
+    background-color: var(--secundary-color);
+    border-radius: 50%;
+    line-height: 32px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+}
+
+.menu {
+    background: var(--main-color);
+    opacity: 0.75;
+    backdrop-filter: blur(20.3871px);
+    opacity: 75%;
+    display: none;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    color: var(--secundary-color);
+}
+
+.menu__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.item-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.item-text {
+    font-weight: 700;
+    font-size: 20px;
+}
