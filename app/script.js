@@ -9,7 +9,7 @@ toggleBtn.addEventListener("click", () => {
     if (quotesBox.classList.contains("active")){
         quotesBox.classList.remove("active");
         quotesBox.style.display = "none";
-        dropdownMenu.style.display = "flex";
+        dropdownMenu.style.display = "grid";
         btnText.innerHTML = "Less";
         btnIcon.classList.remove("fa-angle-up");
         btnIcon.classList.add("fa-angle-down");

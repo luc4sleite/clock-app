@@ -17,7 +17,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Clock App</title>
@@ -34,46 +40,50 @@
       </div>
       <i class="fa-solid fa-rotate" id="reload"></i>
     </header>
+    <main>
+      <section class="container">
+        <div class="greeting__box">
+          <div class="greeting"></div>
+          <span class="greeting__subtext">, it's currently</span>
+        </div>
+        <div class="time">
+          <span class="time__number">11:37</span>
+          <span class="time__type">GMT</span>
+        </div>
+        <div class="location__container">
+          <span class="location">In </span>
+          <span class="location" id="city">London</span>
+          <span class="location" id="city">,</span>
+          <span class="location" id="country">UK</span>
+        </div>
+      </section>
 
-    <section class="container">
-      <div class="greeting">
-      </div>
-      <div class="time">
-        <span class="time__number">11:37</span>
-        <span class="time__type">GMT</span>
-      </div>
-      <div class="location__container">
-        <span class="location">In </span>
-        <span class="location" id="city">London</span>
-        <span class="location" id="city">,</span>
-        <span class="location" id="country">UK</span>
-      </div>
-    </section>
-
-    <footer class="dropdown-menu">
       <div class="toggle__button">
         <span id="btn-text">More</span>
         <i class="fa-solid fa-angle-up" id="btn-icon"></i>
       </div>
-      <nav class="menu">
-        <li class="menu__item">
-          <span class="item-title">Current Timezone</span>
-          <span class="item-text" id="timezone">Europe/London</span>
-        </li>
-        <li class="menu__item">
-          <span class="item-title">Day of the year</span>
-          <span class="item-text" id="dayOfTheYear">295</span>
-        </li>
-        <li class="menu__item">
-          <span class="item-title">Day of the week</span>
-          <span class="item-text" id="dayOfTheWeek">5</span>
-        </li>
-        <li class="menu__item">
-          <span class="item-title">Week number</span>
-          <span class="item-text" id="weekNumber">42</span>
-        </li>
-      </nav>
-    </footer>
+
+      <footer class="dropdown-menu">
+        <nav class="menu">
+          <li class="menu__item">
+            <span class="item-title">Current Timezone</span>
+            <span class="item-text" id="timezone">Europe/London</span>
+          </li>
+          <li class="menu__item">
+            <span class="item-title">Day of the year</span>
+            <span class="item-text" id="dayOfTheYear">295</span>
+          </li>
+          <li class="menu__item">
+            <span class="item-title">Day of the week</span>
+            <span class="item-text" id="dayOfTheWeek">5</span>
+          </li>
+          <li class="menu__item">
+            <span class="item-title">Week number</span>
+            <span class="item-text" id="weekNumber">42</span>
+          </li>
+        </nav>
+      </footer>
+    </main>
     <script src="./app/script.js"></script>
     <script src="./app/time.js"></script>
     <script src="./app/location.js"></script>
