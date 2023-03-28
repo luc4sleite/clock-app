@@ -60,6 +60,7 @@ header {
 
 .fa-rotate {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .quotes__text {
@@ -145,6 +146,11 @@ header {
     margin-left: 1rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.toggle__button:hover {
+  filter: brightness(175%);
 }
 
 .toggle__button span {
@@ -304,6 +310,7 @@ header {
 @media (min-width: 1024px) {
   body {
     height: 800px;
+    max-height: 800px;
   }
   
   /* HEADER */
