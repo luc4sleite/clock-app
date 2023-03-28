@@ -2,15 +2,17 @@ const btnReload = document.getElementById("reload");
 const quoteText = document.querySelector("quotes__text");
 const quoteAuthor = document.querySelector("quotes__author");
 
-btnReload.addEventListener("click", reloadQuote);
+async function getQuote() {
+    try {
+        const response = await fetch('https://programming-quotes-api.herokuapp.com/quotes/random');
+        const data = response.json();
 
-function reloadQuote() {
-    fetch('https://programming-quotes-api.herokuapp.com/quotes/random')
-    .then(response => response.json())
-    .then(data => {
         quoteText.textContent = data.en;
-        quoteAuthor.textContent = `- ${data.auhor}`;
-    })
-    .catch(error => console.log(error));
+        quoteAuthor.textContent = data.author;
+    } catch (error) {
+        console.error(error);
+    }
 
 }
+
+btnReload.addEventListener("click", getQuote);
