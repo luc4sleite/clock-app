@@ -1,108 +1,117 @@
-# Frontend Mentor - Clock app
+# Clock app
 
-![Design preview for the Clock app coding challenge](./preview.jpg)
+Esta é uma solução ao [Clock app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM).
 
-## Welcome! 👋
+## Índice
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+- [Visão geral](#visão-geral)
+  - [O desafio](#o-desafio)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Aprendizado contínuo](#aprendizado-contínuo)
+  - [Recursos úteis](#recursos-úteis)
+- [Autor](#autor)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+## Visão geral
 
-**To do this challenge, you need a solid understanding of HTML, CSS and JavaScript.**
+### O desafio
 
-## The challenge
+Os usuários poderão:
 
-Your challenge is to build out this clock application and get it looking as close to the design as possible. You'll be using the following APIs to retrieve the necessary data:
+- Visualizar o layout de acordo com o aparelho que estiver utilizando
+- Ver as mudanças de estilos conforme interage com a página
+- Visualizar a hora e a localização atual com base no IP de acesso
+- Visualizar informações adicionais sobre o dia atual, como: dia do ano, dia da semana, número da semana no ano
+- Ser recebido com uma saudação inicial conforme o horário do dia e ver a imagem de fundo alterar conforme o horário e o dispositivo de acesso
+- Gerar citações aletórias de personagens de animes ao clicar no botão de recarregar próximo do texto
 
-- [World Time API](http://worldtimeapi.org/) to set the time based on the visitor's IP adress. This API will also be used for additional data, like the day of the year shown in the expanded state.
-- [IP Geolocation API](https://freegeoip.app/) to set the city and country underneath the time
-- [Programming Quotes API](https://programming-quotes-api.herokuapp.com/) to generate random programming quotes.
-    - If the Programming Quotes API doesn't work, [here's a good alternative quote API](https://github.com/lukePeavey/quotable) you can use instead. It's not programming specific, but it will do the trick.
+### Screenshot
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+![](./screenshot.jpg)
 
-Your users should be able to:
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View the current time and location information based on their IP address
-- View additional information about the date and time in the expanded state
-- Be shown the correct greeting and background image based on the time of day they're visiting the site
-- Generate random programming quotes by clicking the refresh icon near the quote
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-### Expected Behaviour
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-- Change the greeting depending on the time of day. It should say:
-  - "Good morning" between 5am and 12pm
-  - "Good afternoon" between 12pm and 6pm
-  - "Good evening" between 6pm and 5am
-- Change the greeting icon and background image depending on the time of day. They should show:
-  - The sun icon and the daytime background image between 5am and 6pm
-  - The moon icon and the nighttime background image between 6pm and 5am
-- Generate a new random programming quote whenever the refresh icon is clicked
+### Links
 
-## Where to find everything
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+## Meu processo
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
+### Construído com
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project.
+- Tags HTML5 semânticas
+- CSS media queries
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript
+- [World Time API](https://worldtimeapi.org/api/ip)
+- [ipify API](https://api.ipify.org/?format=json)
+- [IP Geolocation API](https://freegeoip.app/)
+- [Animechan](https://animechan.vercel.app/docs#random-quote)
 
-## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### O que eu aprendi
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Neste projeto eu pude aprimorar minhas habilidades com JavaScript, principal na utilização de funções assíncronas para requisições de API. Também melhorei a responsividade dos meus projetos através da utilização de media querys.
 
-## Deploying your project
+Uma parte do código que estou muito orgulho foi conseguir demonstrar a localização do usuário através do seu IP, porém, para que isso acontecesse tive que utilizar duas API, uma para capturar o IP do usuário e outra para utilizar esse IP na localização, conforme a seguir:
+```js
+async function getIp() {
+    try {
+        const response = await fetch('https://api.ipify.org/?format=json');
+        const data = await response.json();
+        return data.ip;
+    } catch (error) {
+        console.log(error);
+        return null;
+    }
+}
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+async function showLocation() {
+    const ip = await getIp();
+    const apiUrl = `https://api.ipbase.com/v2/info?apikey=6zya6oHfBkMRYp3iri5i2Ua4ZUEbeQlS0ekeo8Wf&language=en&ip=${ip}`;
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+    try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        
+        const city = data.data.location.city.name;
+        const cityElement = document.getElementById("city");
+        cityElement.textContent = city;
+        
+        const country = data.data.location.country.alpha2;
+        const countryElement = document.getElementById("country");
+        countryElement.textContent = country;
+    } catch (error) {
+        console.error(error);
+        alert("It wasn't possible to get the current location");
+    }
+}
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+showLocation();
+```
 
-## Create a custom `README.md`
+### Aprendizado contínuo
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Focarei em criar o próximo projeto utilizando o React juntamente com o TypeScript
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Recursos úteis
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- [ipify API](https://api.ipify.org/?format=json) - me ajudou a capturar o IP do usuário e utiliza-lo na API para localização.
 
-## Submitting your solution
+## Autor
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- LinkedIn - [Lucas Gonçalves Leite](https://www.linkedin.com/in/lucas-g-leite/)
+- Frontend Mentor - [Lucas Leite](https://www.frontendmentor.io/profile/luc4sleite)
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
