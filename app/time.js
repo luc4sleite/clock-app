@@ -47,5 +47,3 @@ async function showCurrentTime() {
 
 
 showCurrentTime();
-
-setInterval(showCurrentTime, 5000);
