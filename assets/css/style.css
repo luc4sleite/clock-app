@@ -149,10 +149,6 @@ header {
     cursor: pointer;
 }
 
-.toggle__button:hover {
-  filter: brightness(175%);
-}
-
 .toggle__button span {
     color: var(--third-color);
     opacity: 0.5;
@@ -315,6 +311,7 @@ header {
   
   /* HEADER */
   header {
+    padding-bottom: 20rem;
     padding-left: 10rem;
   }
 
@@ -358,6 +355,10 @@ header {
     grid-row: 1 / 2;
   }
 
+  .toggle__button:hover {
+    filter: brightness(175%);
+  }
+
   /* DROPDOWN MENU */
   .dropdown-menu {
     margin-top: 4rem;
@@ -367,7 +368,7 @@ header {
 
   .menu {
     padding-top: 5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 13.5rem;
     padding-left: 8rem;
     row-gap: 0;
   }
