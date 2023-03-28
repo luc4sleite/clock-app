@@ -1,14 +1,14 @@
 const btnReload = document.getElementById("reload");
-const quoteText = document.querySelector("quotes__text");
-const quoteAuthor = document.querySelector("quotes__author");
+const quoteText = document.querySelector(".quotes__text");
+const quoteAuthor = document.querySelector(".quotes__author");
 
 async function getQuote() {
     try {
-        const response = await fetch('https://programming-quotes-api.herokuapp.com/quotes/random');
-        const data = response.json();
+        const response = await fetch('https://animechan.vercel.app/api/random');
+        const data = await response.json();
 
-        quoteText.textContent = data.en;
-        quoteAuthor.textContent = data.author;
+        quoteText.textContent = data.quote;
+        quoteAuthor.textContent = data.character;
     } catch (error) {
         console.error(error);
     }
