@@ -30,4 +30,4 @@ async function showLocation() {
     }
 }
 
-// showLocation();
+showLocation();
