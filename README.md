@@ -1,4 +1,8 @@
-# Clock app
+# Frontend Mentor - Clock app
+
+![Design preview for the Clock app coding challenge](./preview.jpg)
+
+## Welcome! 👋
 
 Esta é uma solução ao [Clock app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM).
 
@@ -30,20 +34,16 @@ Os usuários poderão:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2023-03-28 at 18-37-52 Clock App](https://user-images.githubusercontent.com/115735167/228372667-670e3791-42f6-44d1-8edd-8a478f1f6021.png)
+![Screenshot 2023-03-28 at 18-37-43 Clock App](https://user-images.githubusercontent.com/115735167/228372672-3a1ebfc9-0012-433e-9f9b-2648679e5309.png)
+![Screenshot 2023-03-28 at 18-37-18 Clock App](https://user-images.githubusercontent.com/115735167/228372675-a54a0523-036c-4f45-a787-748d890deca7.png)
+![Screenshot 2023-03-28 at 18-37-01 Clock App](https://user-images.githubusercontent.com/115735167/228372678-fe6e85b0-d3a6-4e00-991a-6f7182b5a059.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/clock-app-dSvVBTSTNH](https://www.frontendmentor.io/solutions/clock-app-dSvVBTSTNH)
+- Live Site URL: [Clock App](https://clock-app-smoky.vercel.app/)
 
 ## Meu processo
 
